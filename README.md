@@ -19,23 +19,41 @@
 
 ## Commandes Git Utilisées
 
-- **Créer une branche** :
-  git checkout
-
-  **pour pouser vers le depot distant
-  git push -u origin (nom de ka branche)
+- **pour pouser vers le depot distant**:
+  git push -u origin (nom de la branche)
    
-   **pour creer une branche
+  - **pour creer une branche**:
   git checkout -b feature/nom_de_la_fonctionnalité
 
-    **pour enregistre un commit
+  - **pour enregistre un commit**:
    git commit -m "message du commit"
 
-    **pour fusionner 
+  - **pour fusionner**:
   git merge (nom de la branche)
 
-   **pour ajouter 
+- **pour ajouter un fichier**:
    git add .
    
-   **pour cloner
+  - **pour cloner un depot**:
    git clone
+
+  - **pour changer de branche**:
+    git checkout
+
+- **Voir l'historique des commits**:
+    git log
+
+- **Récupérer les nouveaux commits depuis le dépôt distant**:
+    git pull
+
+ - **Voir l'état des fichiers et des commits**:
+    git status
+
+- **Lister, créer ou supprimer des branches**:
+    git branch
+
+
+   
+  
+
+  
