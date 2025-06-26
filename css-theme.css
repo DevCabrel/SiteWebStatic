@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, RED, BLACK);
+    color: WHITE (255, 255, 255, 0.45);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: flexbox;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: beige (255, 255, 255, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccccccb6;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.service-card {
+    border: 1px solid #cccccc00;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:rgb(226, 107, 43);
+}
+
+.service-icon {
+    max-width: 110px;
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact-item {
+    margin: 10px;
+}
+
+.contact-icon {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(50, 44, 73, 66);
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
